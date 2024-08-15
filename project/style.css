@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.input{
+    /* background-color: red; */
+    margin: 300px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    
+}
+#passward{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 5px 15px;
+    border: none;
+    border: 2px solid green;
+}
+#passward:focus{
+    outline: none;
+}
+#output{
+    line-height: 60px;
+    font-size: 20px;
+}
