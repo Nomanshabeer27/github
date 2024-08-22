@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+     height: 100%;
+}
+.container1{
+    margin: auto;
+    /* width: 100%; */
+    /* height: 110px; */
+    background-color: #ede5e5a4;
+    -webkit-box-shadow: 3px 3px 5px 6px #f6f3f3;  
+    -moz-box-shadow:    3px 3px 5px 6px #e9e5e5; 
+    box-shadow:         3px 3px 5px 6px #e6e4e4; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.menu{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu i {
+    font-size:40px;
+    font-weight: lighter;
+    padding: 10px;
+}
+.menu i:hover{
+    border-radius: 10px;
+    background-color: #e8d5d5a4;
+
+}
+.img img{
+    height: 70px;
+    width: 100px;
+    margin-left: 20px; 
+}
+.search-input input{
+    position: relative;
+    width: 15px;
+    height: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: transparent;
+    border: 1px solid rgb(244, 237, 237);
+    background-color: #fff;
+    overflow: hidden;
+    background: url(icons8-search-50.png) no-repeat transparent;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search-input input:hover {
+    cursor: pointer;
+    border: 1px solid #0c0b0b;
+    background: url(icons8-search-50.png) no-repeat transparent;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search-input input:focus {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 50px;
+    color: rgb(35, 21, 21);
+    outline: none;
+    border: 1px solid #121211;
+    background-color: transparent;
+    background: url(icons8-search-50.png)no-repeat transparent;
+    background-size: 27px;
+    background-position: 5% 40%;
+
+}
+.digital{
+   position: relative;
+   margin: 2px;
+}
+select{
+    
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ede5e500;
+    font-size: 20px;
+}
+select:focus{
+    outline: none;
+}
+select:hover{
+    background-color: #e8d5d5a4;
+
+}
+.dot i{
+    font-size: 40px;
+    padding: 5px;
+
+}
+.dot:hover{
+    background-color: #e8d5d5a4;
+    border-radius: 7px;
+}
+.downlod-app i{
+    font-size: 35px;
+    padding: 6px;
+
+}
+.downlod-app:hover{
+    background-color: #e8d5d5a4;
+    border-radius: 7px;
+
+
+}
+.setting i{
+    font-size: 35px;
+    padding: 6px;
+
+}
+.setting:hover{
+    background-color: #e8d5d5a4;
+    border-radius: 7px;
+}
+.notification i{
+    font-size: 35px;
+    padding: 6px;
+}
+.notification :hover{
+    background-color: #e8d5d5a4;
+    border-radius: 7px;
+}
+button{
+    padding: 16px;
+    border-radius: 7px;
+    border: none; 
+    background-color: #9856fa;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.login button{
+    height: 60px;
+    width: 100px;
+    border-radius: 10%;
+    font-size: 20px;
+    padding: 10px;
+
+}
+button:hover{
+    background-color: #7b23ff;
+}
+.login button a{
+    text-decoration: none;
+    color: #e9e5e5;
+}
+.container2{
+    background: linear-gradient(170deg, #00c8ffee, #0072ff);
+    text-align: center;
+    /* margin-left: 15vw; */
+    margin-top: 8%;
+    padding:30px;
+    border-radius: 10px;
+    position: absolute;
+}
+.container2 h1{
+    font-size: calc(var(--wQwVGw, .1rem)* 32);
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+
+}
+.search-input2 {
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%);
+    display: flex;
+    height: 60px;
+    border: 1px solid rgba(76, 74, 74, 0.327);
+    border-radius: 8px;
+    background-color: rgb(234, 226, 226);
+
+}
+.search-input2 input{
+    padding: 8px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    flex: 0.7;
+    font-size: 20px;
+    background-color: transparent;
+}
+#icon2{
+    font-size: 30px;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 0%;
+    right: 16%;
+    transform: rotate(-15%,15%);
+}
+.foryou{
+    padding: 20px;
+}
+.foryou i{
+    font-size: 40px;
+    background-color: rgb(249, 244, 244);
+    padding: 20px;
+    border-radius: 50px;
+    color: #0072ff;
+}
+.foryou h4{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.Docs{
+    padding: 20px;
+}
+.Docs i{
+    font-size: 40px;
+    
+    background-color: rgb(249, 244, 244);
+    padding: 20px;border-radius: 50px;
+    color: #0072ff;
+}
+.Docs i:hover{
+    background-color: #02C0CD;
+    color: #fff;
+}
+.Docs h4{
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.Whiteboards{
+    
+    padding: 20px;
+}
+.Whiteboards i{
+    font-size: 40px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: #30d35e;
+}
+.Whiteboards i:hover{
+    background-color: #5be06a;
+    color: #fff;
+}
+.Whiteboards h4{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.Presentations{
+    
+    padding: 20px;
+}
+.Presentations i{
+    font-size: 40px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: gold;
+}
+.Presentations i:hover{
+    background-color: gold;
+    color: #fff;
+}
+.Presentations h4{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.Social-media{
+    padding: 20px;
+}
+.Social-media i{
+    font-size: 40px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: #FF5154;
+}
+.Social-media i:hover{
+    background-color: #FF5154;
+    color: #fff;
+}
+.Social-media h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.Videos{
+    padding: 20px;
+}
+.Videos i{
+    font-size: 40px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: #D269E6;
+}
+.Videos i:hover{
+    background-color: #D269E6;
+    color: #fff;
+}
+.Videos h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.Websites{
+    padding: 20px;
+}
+.Websites i{
+    font-size: 40px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: #575EFD;
+}
+.Websites i:hover{
+    background-color: #575EFD;
+    color: #fff;
+}
+.Websites h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+.More{
+    padding: 20px;
+}
+.More i{
+    font-size: 48px;
+    background-color: rgb(244, 249, 244);
+    padding: 20px;border-radius: 50px;
+    color: #575EFD;
+}
+.More i:hover{
+    background-color: #575EFD;
+    color: #fff;
+}
+.More h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+@media (max-width:700px) {
+ .container2{
+    /* margin: 20px; */
+    padding: 30px;
+    float: inline-start;
+    
+ }
+}
